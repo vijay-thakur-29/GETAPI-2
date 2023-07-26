@@ -25,7 +25,7 @@ public class GetAPITest {
 		Object data[][] = TestUtils.getTestdata("GetURL");
 		return data;
 	}
-//excel data
+//excel data//
 	@Test(dataProvider = "getURLAPI")
 	public void getsearchcompanyTest(String URL) throws ClientProtocolException, IOException 
 	{
